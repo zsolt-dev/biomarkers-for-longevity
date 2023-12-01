@@ -3,13 +3,18 @@
   "version": "1.0.0",
   "description": "Largest crowd sourced reference ranges from the most influential longevity doctors and organizations.",
   "type": "module",
-  "exports": "./dist/index.js",
+  "exports": {
+    ".": "./dist/index.js",
+    "./json/biomarkers.json": "./dist/json/biomarkers.json"
+  },
+  "types": "./dist/index.d.ts",
   "repository": "git://github.com/zsolt-dev/biomarkers-for-longevity.git",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
-    "build": "npm run build:tsup && npm run build:json",
+    "build": "npm run build:clean && npm run build:tsup && npm run build:json",
+    "build:clean": "rimraf ./dist",
     "build:tsup": "tsup",
     "build:json": "tsx ./scripts/buildJsons.ts",
     "check": "concurrently --kill-others-on-fail \"npm run check:*\" || (echo -e '\\033[0;31mSome of the checks failed\\033[0m' && exit 1)",
@@ -47,6 +52,7 @@
     "eslint-plugin-no-only-tests": "^3.1.0",
     "eslint-plugin-unicorn": "^49.0.0",
     "prettier": "^3.1.0",
+    "rimraf": "^5.0.5",
     "tsup": "^8.0.1",
     "tsx": "^4.6.1",
     "typescript": "^5.3.2"

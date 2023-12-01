@@ -8,11 +8,11 @@ Largest crowd sourced reference ranges from the most influential longevity docto
 
 import { biomarkers, biomarkersDictionary, type Biomarker } from '@zsolt-dev/biomarkers-for-longevity';
 
-// or use the validated JSONs in the /dist/json
-
-import biomarkers from '@zsolt-dev/biomarkers-for-longevity/json/biomarkers.json'
-
 ```
+
+If you do not use JS/TS you can use the stitched JSONs in the `dist/json` directory.
+
+- dist/json/**biomarkers.json**
 
 ## Disclaimer:
 
