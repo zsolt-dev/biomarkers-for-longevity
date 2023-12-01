@@ -1,0 +1,31 @@
+{
+  "alternativeShortCodes": ["TG:HDL", "TAG:HDL"],
+  "displayName": "Triglycerides to high-density lipoprotein ratio",
+  "formulaInstructions": "To calculate the TG:HDL ratio, divide your triglyceride level by the HDL level. Both triglyceride and HDL levels must be mg/dL unit. If they are in any other unit, convert them first to mg/dL and then calculate the ratio.",
+  "ranges": [
+    {
+      "source": {
+        "name": "Peter Attia",
+        "description": "I watch the ratio of triglycerides to HDL cholesterol (it should be less than 2:1 or better yet, less than 1:1)",
+        "url": "https://www.goodreads.com/quotes/11629614-i-watch-the-ratio-of-triglycerides-to-hdl-cholesterol-it"
+      },
+      "unit": "ratio",
+      "range": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    {
+      "source": {
+        "name": "Robert Lustig",
+        "description": "Values above 1.5 are strongly associated with nonalcoholic Fatty Liver Disease (NAFLD)",
+        "url": "https://www.levelshealth.com/podcasts/the-ultimate-guide-to-understanding-your-cholesterol-panel-and-metabolic-blood-tests-dr-robert-lustig-dr-casey-means"
+      },
+      "unit": "ratio",
+      "range": {
+        "min": 0,
+        "max": 1.5
+      }
+    }
+  ]
+}

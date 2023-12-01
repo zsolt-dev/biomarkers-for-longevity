@@ -1,0 +1,74 @@
+{
+  "alternativeShortCodes": ["Lp(a)"],
+  "displayName": "Lipoprotein(a)",
+  "rangeSources": [
+    {
+      "source": {
+        "name": "Peter Attia",
+        "url": "https://peterattiamd.com/lpa-and-cvd-risk-clinical-tests-to-measure-lpa/"
+      },
+      "unit": "mg/dL",
+      "range": {
+        "type": "generic",
+        "min": 0,
+        "max": 30
+      }
+    },
+    {
+      "source": {
+        "name": "European Atherosclerosis Society (EAS)",
+        "url": "https://academic.oup.com/eurheartj/article/43/39/3925/6670882"
+      },
+      "unit": "mg/dL",
+      "range": {
+        "type": "generic",
+        "min": 0,
+        "max": 50
+      }
+    }
+  ],
+  "reasonsForHigh": [
+    {
+      "reason": "Genetics",
+      "sources": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4959873/",
+        "https://www.ncbi.nlm.nih.gov/pubmed/20129380"
+      ]
+    },
+    {
+      "reason": "Underactive thyroid (hypothyroidism)",
+      "sources": [
+        "https://www.ncbi.nlm.nih.gov/pubmed/19094068",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3972592/",
+        "https://www.ncbi.nlm.nih.gov/pubmed/10601541"
+      ]
+    },
+    {
+      "reason": "Growth hormones (2x increase with therapy)",
+      "sources": ["http://www.ncbi.nlm.nih.gov/pubmed/8427864"]
+    },
+    {
+      "reason": "Pregnancy (2x increase)",
+      "sources": ["http://www.ncbi.nlm.nih.gov/pubmed/2937991", "http://www.ncbi.nlm.nih.gov/pubmed/10657577"]
+    },
+    {
+      "reason": "Nephrotic syndrome (3-5 x increase vs. control)",
+      "sources": ["http://www.ncbi.nlm.nih.gov/pubmed/14717931", "http://www.ncbi.nlm.nih.gov/pubmed/8264144"]
+    },
+    {
+      "reason": "All other causes",
+      "sources": ["https://academic.oup.com/eurheartj/article/43/39/3925/6670882"]
+    }
+  ],
+  "interventionsForHigh": [
+    {
+      "intervention": "Drugs are still under development",
+      "sources": ["https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9781646/"]
+    },
+    {
+      "intervention": "Niacin",
+      "description": "Flushing form or Niacin, a form of vitamin B3, can decrease Lp(a) by 20-30%.",
+      "sources": ["https://www.jacc.org/doi/10.1016/S0735-1097%2823%2903757-9"]
+    }
+  ]
+}

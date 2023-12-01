@@ -1,0 +1,37 @@
+{
+  "alternativeShortCodes": ["fTST", "free TST"],
+  "displayName": "Free Testosterone",
+  "rangeSources": [
+    {
+      "source": {
+        "name": "Example test for ageSpecific",
+        "url": "https://www.medirex.sk/lekar/detail-parametra/242"
+      },
+      "unit": "pg/mL",
+      "range": {
+        "type": "genderSpecific",
+        "male": {
+          "type": "ageSpecific",
+          "ageGroups": {
+            "18-20": {
+              "min": null,
+              "max": null
+            },
+            "21-49": {
+              "min": 16.69,
+              "max": 77.83
+            },
+            "50-120": {
+              "min": 12.11,
+              "max": 47.02
+            }
+          }
+        },
+        "female": {
+          "min": 0.83,
+          "max": 7.11
+        }
+      }
+    }
+  ]
+}

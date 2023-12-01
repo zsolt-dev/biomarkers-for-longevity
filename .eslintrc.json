@@ -1,0 +1,150 @@
+{
+  "extends": [
+    "airbnb-base",
+    "airbnb-typescript/base",
+    "plugin:eslint-comments/recommended",
+    "plugin:deprecation/recommended",
+    "prettier"
+  ],
+  "env": {
+    "es2021": true,
+    "node": true,
+    "jest": true
+  },
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "project": "./tsconfig.eslint.json"
+  },
+  "plugins": ["unicorn", "no-only-tests"],
+  // Airbnb rule overrides and additions
+  "rules": {
+    // Automatically order imports
+    "import/order": [
+      "error",
+      {
+        "groups": ["builtin", "external", "internal", "parent", "sibling"],
+        "alphabetize": { "order": "asc" },
+        "newlines-between": "always"
+      }
+    ],
+    // Already taken care of by import/order. This must stay here, so require(); is before any import
+    "import/first": "off",
+    // Require a reason for disabling a rule via disable-line
+    "eslint-comments/require-description": "error",
+    // Do not allow unused disable-line
+    "eslint-comments/no-unused-disable": "error",
+    // Allow single line disables (overrides the eslint-comments defaults)
+    "eslint-comments/disable-enable-pair": "off",
+    // Only functions can be used before assigning
+    "@typescript-eslint/no-use-before-define": ["error", { "functions": false, "classes": false, "variables": true }],
+    // Add additional directories to the default airbnb list
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          // these are defaults from airbnb
+          "test/**",
+          "tests/**",
+          "spec/**",
+          "**/__tests__/**",
+          "**/__mocks__/**",
+          "test.{js,jsx}",
+          "test-*.{js,jsx}",
+          "**/*{.,_}{test,spec}.{js,jsx}",
+          "**/jest.config.js",
+          "**/jest.setup.js",
+          "**/vue.config.js",
+          "**/webpack.config.js",
+          "**/webpack.config.*.js",
+          "**/rollup.config.js",
+          "**/rollup.config.*.js",
+          "**/gulpfile.js",
+          "**/gulpfile.*.js",
+          "**/Gruntfile{,.js}",
+          "**/protractor.conf.js",
+          "**/protractor.conf.*.js",
+          "**/karma.conf.js",
+          "**/.eslintrc.js",
+
+          // These are our custom additions
+          // Add any directory or file here that is used in development or CI only
+          "**/@types/**",
+          "**/test/**",
+          "**/tests/**",
+          "**/*.test.ts",
+          "**/tsup.config.ts",
+          // You can change the file name extension to .dev.ts to avoid the: "XX should be listed in the project's dependencies, not devDependencies."
+          "**/*.dev.{js,jsx,ts,tsx}"
+        ],
+        "optionalDependencies": true
+      }
+    ],
+
+    // We often want named export even if there is only one at the beginning
+    "import/prefer-default-export": "off",
+    // So we do not forget to remove console.logs after debugging
+    "no-console": ["error", { "allow": ["warn", "error", "info"] }],
+    // Prettier will make it obvious that its a nested ternary
+    "no-nested-ternary": "off",
+    // We do not see the value of this turned on
+    "prefer-rest-params": "off",
+    // These issues should be decided and reported in typescript config
+    "@typescript-eslint/no-explicit-any": "off",
+    // Adding _ will bypass no-used issues
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        "vars": "all",
+        "args": "after-used",
+        "ignoreRestSiblings": true,
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    // This code should be allowed `export { default } from './Link';`
+    // Remove "no-restricted-exports" after eslint fixes issue https://github.com/eslint/eslint/issues/15617
+    "no-restricted-exports": [
+      "error",
+      {
+        "restrictedNamedExports": ["then"]
+      }
+    ],
+    // We use a lot of large numbers. This rule enforce large number has to use separator. Example: 1_000_000
+    "unicorn/numeric-separators-style": "error",
+    // Airbnb is too restrictive
+    "@typescript-eslint/no-unused-expressions": [
+      "error",
+      {
+        "allowShortCircuit": true,
+        "allowTernary": true,
+        "allowTaggedTemplates": true,
+        "enforceForJSX": false
+      }
+    ],
+    // We do not see the value of this turned on
+    "class-methods-use-this": "off",
+    // allow for-of loops
+    "no-restricted-syntax": [
+      "error",
+      {
+        "selector": "ForInStatement",
+        "message": "for..in loops iterate over the entire prototype chain, which is virtually never what you want. Use Object.{keys,values,entries}, and iterate over the resulting array."
+      },
+      {
+        "selector": "LabeledStatement",
+        "message": "Labels are a form of GOTO; using them makes code confusing and hard to maintain and understand."
+      },
+      {
+        "selector": "WithStatement",
+        "message": "`with` is disallowed in strict mode because it makes code impossible to predict and optimize."
+      }
+    ],
+    "no-only-tests/no-only-tests": [
+      "error",
+      {
+        // "block": ["test", "it", "assert"],
+        "focus": ["only", "focus", "skip"]
+      }
+    ]
+  }
+}

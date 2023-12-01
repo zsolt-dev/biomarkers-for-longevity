@@ -1,0 +1,24 @@
+{
+  "alternativeShortCodes": ["E2"],
+  "displayName": "Estradiol",
+  "rangeSources": [
+    {
+      "source": {
+        "name": "Peter Attia",
+        "url": "https://docs.google.com/document/d/1qw7BRXC-dX1Vmci0vijwYyxwdqxqhj4FMUXeMNQg2Rs/edit"
+      },
+      "unit": "pg/mL",
+      "range": {
+        "type": "genderSpecific",
+        "male": {
+          "min": 25,
+          "max": 45
+        },
+        "female": {
+          "min": 50,
+          "max": 400
+        }
+      }
+    }
+  ]
+}
