@@ -1,13 +1,13 @@
 {
   "alternativeShortCodes": ["LDL", "LDL-C"],
   "displayName": "Low-density lipoprotein cholesterol",
+  "unit": "mg/dL",
   "rangeSources": [
     {
       "source": {
         "name": "Peter Attia",
         "url": "https://peterattiamd.com/the-straight-dope-on-cholesterol-part-vi/"
       },
-      "unit": "mg/dL",
       "range": {
         "type": "generic",
         "min": 0,

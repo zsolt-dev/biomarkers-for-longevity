@@ -1,13 +1,13 @@
 {
   "alternativeShortCodes": ["fTST", "free TST"],
   "displayName": "Free Testosterone",
+  "unit": "pg/mL",
   "rangeSources": [
     {
       "source": {
         "name": "Example test for ageSpecific",
         "url": "https://www.medirex.sk/lekar/detail-parametra/242"
       },
-      "unit": "pg/mL",
       "range": {
         "type": "genderSpecific",
         "male": {

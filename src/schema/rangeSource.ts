@@ -40,7 +40,6 @@ const rangeSource = z.object({
     name: z.string().min(3).max(60),
     url,
   }),
-  unit: z.string(),
   range: z.union([genericRange, genderSpecificRange, ageSpecificRange]),
 });
 

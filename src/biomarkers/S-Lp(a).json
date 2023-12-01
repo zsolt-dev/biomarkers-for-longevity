@@ -1,13 +1,13 @@
 {
   "alternativeShortCodes": ["Lp(a)"],
   "displayName": "Lipoprotein(a)",
+  "unit": "mg/dL",
   "rangeSources": [
     {
       "source": {
         "name": "Peter Attia",
         "url": "https://peterattiamd.com/lpa-and-cvd-risk-clinical-tests-to-measure-lpa/"
       },
-      "unit": "mg/dL",
       "range": {
         "type": "generic",
         "min": 0,
@@ -19,7 +19,6 @@
         "name": "European Atherosclerosis Society (EAS)",
         "url": "https://academic.oup.com/eurheartj/article/43/39/3925/6670882"
       },
-      "unit": "mg/dL",
       "range": {
         "type": "generic",
         "min": 0,
