@@ -1,6 +1,6 @@
 import { z } from 'zod';
 
-import url from './url';
+import url from './url.js';
 
 const min = z.number().nullable();
 const max = z.number().nullable();

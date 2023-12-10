@@ -1,5 +1,5 @@
-import { biomarkersDictionary } from '../src/biomarkers';
-import biomarkerSchema from '../src/schema/biomarker';
+import { biomarkersDictionary } from '../src/biomarkers/index.js';
+import biomarkerSchema from '../src/schema/biomarker.js';
 
 let exitCode = 0;
 Object.entries(biomarkersDictionary).forEach(([shortCode, biomarker]) => {

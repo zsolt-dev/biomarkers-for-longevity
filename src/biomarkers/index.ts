@@ -1,4 +1,4 @@
-import { type Biomarker } from '../schema/biomarker';
+import { type Biomarker } from '../schema/biomarker.js';
 
 export const biomarkersDictionary = {
   'S-LDL': (await import('./S-LDL.json')).default as Biomarker,

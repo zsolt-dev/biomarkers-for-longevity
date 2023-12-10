@@ -1,6 +1,6 @@
 import { z } from 'zod';
 
-import url from './url';
+import url from './url.js';
 
 const interventionForOutOfRange = z.object({
   intervention: z.string().min(5).max(60),

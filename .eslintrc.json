@@ -30,6 +30,8 @@
     ],
     // Already taken care of by import/order. This must stay here, so require(); is before any import
     "import/first": "off",
+    // pure ESM must have extension on imports
+    "import/extensions": ["error", "always"],
     // Require a reason for disabling a rule via disable-line
     "eslint-comments/require-description": "error",
     // Do not allow unused disable-line

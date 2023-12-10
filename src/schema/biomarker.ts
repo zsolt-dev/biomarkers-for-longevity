@@ -1,9 +1,9 @@
 import { z } from 'zod';
 
-import interventionForOutOfRange from './interventionForOutOfRange';
-import rangeSource from './rangeSource';
-import reasonForOutOfRange from './reasonForOutOfRange';
-import unit from './unit';
+import interventionForOutOfRange from './interventionForOutOfRange.js';
+import rangeSource from './rangeSource.js';
+import reasonForOutOfRange from './reasonForOutOfRange.js';
+import unit from './unit.js';
 
 // limits like .max(6) are here to prevent slowing down the GPT response
 const biomarker = z
