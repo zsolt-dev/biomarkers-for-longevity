@@ -28,8 +28,11 @@ const ageSpecificRange = z
 const genderSpecificRange = z
   .object({
     type: z.literal('genderSpecific'),
-    male: z.union([minMaxObject, ageSpecificRange]),
-    female: z.union([minMaxObject, ageSpecificRange]),
+    // ageSpecificRange not supported yet
+    // male: z.union([minMaxObject, ageSpecificRange]),
+    // female: z.union([minMaxObject, ageSpecificRange]),
+    male: minMaxObject,
+    female: minMaxObject,
   })
   .refine((data) => data.male || data.female, {
     message: "At least one of 'male' or 'female' is required",
@@ -40,7 +43,10 @@ const rangeSource = z.object({
     name: z.string().min(3).max(60),
     url,
   }),
-  range: z.union([genericRange, genderSpecificRange, ageSpecificRange]),
+
+  // ageSpecificRange not supported yet
+  // range: z.union([genericRange, genderSpecificRange, ageSpecificRange])
+  range: z.union([genericRange, genderSpecificRange]),
 });
 
 export default rangeSource;
