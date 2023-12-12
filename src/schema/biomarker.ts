@@ -10,6 +10,7 @@ const biomarker = z
   .object({
     alternativeShortCodes: z.array(z.string()),
     displayName: z.string(),
+    longName: z.string(),
     unit,
     rangeSources: z.array(rangeSource).min(1).max(6),
     reasonsForLow: z.array(reasonForOutOfRange).max(6).optional(),

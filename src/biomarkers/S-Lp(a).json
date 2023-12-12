@@ -1,6 +1,7 @@
 {
   "alternativeShortCodes": ["Lp(a)"],
-  "displayName": "Lipoprotein(a)",
+  "displayName": "Lp(a)",
+  "longName": "Lipoprotein(a)",
   "unit": "mg/dL",
   "rangeSources": [
     {

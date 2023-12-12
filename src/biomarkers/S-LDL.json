@@ -1,6 +1,7 @@
 {
   "alternativeShortCodes": ["LDL", "LDL-C"],
-  "displayName": "Low-density lipoprotein cholesterol",
+  "displayName": "LDL",
+  "longName": "Low-density lipoprotein cholesterol",
   "unit": "mg/dL",
   "rangeSources": [
     {

@@ -1,6 +1,7 @@
 {
   "alternativeShortCodes": ["E2"],
   "displayName": "Estradiol",
+  "longName": "Estradiol",
   "unit": "pg/mL",
   "rangeSources": [
     {
