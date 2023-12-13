@@ -1,0 +1,19 @@
+{
+  "alternativeShortCodes": ["HbA1c", "HbA1c DCCT", "HbA1c NGSP"],
+  "displayName": "B-HbA1c DCCT / NGSP",
+  "longName": "Blood Hemoglobin A1c (DCCT / NGSP)",
+  "unit": "%",
+  "rangeSources": [
+    {
+      "source": {
+        "name": "Peter Attia",
+        "url": "https://docs.google.com/document/d/1qw7BRXC-dX1Vmci0vijwYyxwdqxqhj4FMUXeMNQg2Rs"
+      },
+      "range": {
+        "type": "generic",
+        "min": null,
+        "max": 5.7
+      }
+    }
+  ]
+}

@@ -11,7 +11,7 @@
       },
       "range": {
         "type": "generic",
-        "min": 0,
+        "min": null,
         "max": 30
       }
     },
@@ -22,7 +22,7 @@
       },
       "range": {
         "type": "generic",
-        "min": 0,
+        "min": null,
         "max": 50
       }
     }

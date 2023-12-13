@@ -1,6 +1,6 @@
 import { z } from 'zod';
 
-export const possibleUnits = ['pg/mL', 'mg/dL'] as const;
+export const possibleUnits = ['pg/mL', 'mg/dL', 'µmol/L', '%', 'µIU/mL', 'ratio', '%'] as const;
 
 const unit = z.enum(possibleUnits);
 

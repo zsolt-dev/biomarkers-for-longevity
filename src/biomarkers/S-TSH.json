@@ -1,0 +1,19 @@
+{
+  "alternativeShortCodes": ["TSH"],
+  "displayName": "TSH",
+  "longName": "Thyroid-stimulating hormone",
+  "unit": "µIU/mL",
+  "rangeSources": [
+    {
+      "source": {
+        "name": "Peter Attia",
+        "url": "https://docs.google.com/document/d/1qw7BRXC-dX1Vmci0vijwYyxwdqxqhj4FMUXeMNQg2Rs"
+      },
+      "range": {
+        "type": "generic",
+        "min": 0.27,
+        "max": 4.2
+      }
+    }
+  ]
+}
