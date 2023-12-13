@@ -17,6 +17,20 @@
         },
         "female": null
       }
+    },
+    {
+      "source": {
+        "name": "OptimalDX",
+        "url": "https://www.optimaldx.com/research-blog/hormone-biomarkers-follicle-stimulating-hormone-in-men"
+      },
+      "range": {
+        "type": "genderSpecific",
+        "male": {
+          "min": 1.6,
+          "max": 8
+        },
+        "female": null
+      }
     }
   ]
 }

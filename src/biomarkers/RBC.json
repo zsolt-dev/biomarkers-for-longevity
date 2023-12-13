@@ -1,0 +1,25 @@
+{
+  "alternativeShortCodes": ["RBC", "Ery", "Erythrocytes"],
+  "displayName": "RBC",
+  "longName": "Red Blood Cells Count",
+  "unit": "10^12/L",
+  "rangeSources": [
+    {
+      "source": {
+        "name": "OptimalDX",
+        "url": "https://www.optimaldx.com/research-blog/cbc-biomarkers-red-blood-cell-count"
+      },
+      "range": {
+        "type": "genderSpecific",
+        "male": {
+          "min": 4.8,
+          "max": 5.5
+        },
+        "female": {
+          "min": 4.3,
+          "max": 4.8
+        }
+      }
+    }
+  ]
+}

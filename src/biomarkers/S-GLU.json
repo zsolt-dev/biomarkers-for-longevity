@@ -1,0 +1,19 @@
+{
+  "alternativeShortCodes": ["GLU", "BS"],
+  "displayName": "Glucose",
+  "longName": "Fasting Glucose",
+  "unit": "mg/dL",
+  "rangeSources": [
+    {
+      "source": {
+        "name": "OptimalDX",
+        "url": "https://www.optimaldx.com/optimal-range"
+      },
+      "range": {
+        "type": "generic",
+        "min": 75,
+        "max": 86
+      }
+    }
+  ]
+}

@@ -14,6 +14,17 @@
         "min": 30,
         "max": 80
       }
+    },
+    {
+      "source": {
+        "name": "OptimalDX",
+        "url": "https://www.optimaldx.com/optimal-range"
+      },
+      "range": {
+        "type": "generic",
+        "min": 50,
+        "max": 90
+      }
     }
   ]
 }

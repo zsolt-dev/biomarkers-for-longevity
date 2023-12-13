@@ -14,6 +14,17 @@
         "min": 0.27,
         "max": 4.2
       }
+    },
+    {
+      "source": {
+        "name": "OptimalDX",
+        "url": "https://www.optimaldx.com/blog/thyroid-stimulating-hormone-an-update-to-the-odx-tsh-range"
+      },
+      "range": {
+        "type": "generic",
+        "min": 1,
+        "max": 2
+      }
     }
   ]
 }

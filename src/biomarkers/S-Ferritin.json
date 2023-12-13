@@ -14,6 +14,29 @@
         "min": 30,
         "max": 400
       }
+    },
+    {
+      "source": {
+        "name": "OptimalDX",
+        "url": "https://www.optimaldx.com/research-blog/biomarkers-of-iron-status-ferritin"
+      },
+      "range": {
+        "type": "generic",
+        "min": 45,
+        "max": 79
+      }
+    }
+  ],
+  "reasonsForLow": [
+    {
+      "reason": "Use this table for differential diagnosis:",
+      "sources": ["https://www.optimaldx.com/research-blog/deep-dive-into-iron-metabolism-part-6-optimal-takeaways"]
+    }
+  ],
+  "reasonsForHigh": [
+    {
+      "reason": "Use this table for differential diagnosis:",
+      "sources": ["https://www.optimaldx.com/research-blog/deep-dive-into-iron-metabolism-part-6-optimal-takeaways"]
     }
   ]
 }
