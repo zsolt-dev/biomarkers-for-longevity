@@ -31,8 +31,8 @@ const genderSpecificRange = z
     // ageSpecificRange not supported yet
     // male: z.union([minMaxObject, ageSpecificRange]),
     // female: z.union([minMaxObject, ageSpecificRange]),
-    male: minMaxObject,
-    female: minMaxObject,
+    male: minMaxObject.nullable(),
+    female: minMaxObject.nullable(),
   })
   .refine((data) => data.male || data.female, {
     message: "At least one of 'male' or 'female' is required",

@@ -23,18 +23,18 @@ Object.entries(biomarkersDictionary).forEach(([shortCode, biomarker]) => {
 // eslint-disable-next-line no-console -- CLI
 console.log(`\n\nChecking if all biomarkers are imported:\n`);
 
-// get list of .json files in the biomarkers folder
-
 const currentFilePath = fileURLToPath(import.meta.url);
 const currentDir = path.dirname(currentFilePath);
 const rootDir = path.resolve(currentDir, '../');
 
 const biomarkersFolder = path.join(rootDir, 'src/biomarkers');
 const files = fs.readdirSync(biomarkersFolder);
-const jsonFiles = files.filter((file) => file.endsWith('.json'));
-jsonFiles.forEach((file) => {
-  // strip .json extension
-  const shortCode = file.slice(0, -5);
+const jsonFilesWithoutExtension = files.filter((file) => file.endsWith('.json')).map((file) => file.slice(0, -5));
+
+// jsonFilesWithoutExtension.sort();
+jsonFilesWithoutExtension.sort((a, b) => a.localeCompare(b, 'en', { numeric: true, sensitivity: 'base' }));
+
+jsonFilesWithoutExtension.forEach((shortCode) => {
   if (!biomarkersDictionary[shortCode]) {
     exitCode = 1;
     console.error(`  - NOT IMPORTED - ${shortCode}`);
