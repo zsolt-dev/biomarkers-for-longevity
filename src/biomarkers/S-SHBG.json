@@ -1,0 +1,25 @@
+{
+  "alternativeShortCodes": ["SHBG"],
+  "displayName": "SHBG",
+  "longName": "Sex hormone-binding globulin",
+  "unit": "nmol/L",
+  "rangeSources": [
+    {
+      "source": {
+        "name": "Peter Attia",
+        "url": "https://docs.google.com/document/d/1qw7BRXC-dX1Vmci0vijwYyxwdqxqhj4FMUXeMNQg2Rs/edit"
+      },
+      "range": {
+        "type": "genderSpecific",
+        "male": {
+          "min": null,
+          "max": 60
+        },
+        "female": {
+          "min": 20,
+          "max": 100
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "alternativeShortCodes": ["Vitamin D", "25(OH)D", "25-hydroxy-vitamin D"],
+  "displayName": "Vitamin D - 25(OH)D",
+  "longName": "25-Hydroxycalciferol",
+  "unit": "ng/mL",
+  "rangeSources": [
+    {
+      "source": {
+        "name": "Peter Attia",
+        "url": "https://docs.google.com/document/d/1qw7BRXC-dX1Vmci0vijwYyxwdqxqhj4FMUXeMNQg2Rs"
+      },
+      "range": {
+        "type": "generic",
+        "min": 30,
+        "max": 80
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "alternativeShortCodes": ["tPSA", "PSA", "Total PSA"],
+  "displayName": "tPSA",
+  "longName": "Total Prostate-Specific Antigen",
+  "unit": "ng/mL",
+  "rangeSources": [
+    {
+      "source": {
+        "name": "Peter Attia",
+        "url": "https://docs.google.com/document/d/1qw7BRXC-dX1Vmci0vijwYyxwdqxqhj4FMUXeMNQg2Rs/edit"
+      },
+      "range": {
+        "type": "genderSpecific",
+        "male": {
+          "min": null,
+          "max": 0.45
+        },
+        "female": null
+      }
+    }
+  ]
+}

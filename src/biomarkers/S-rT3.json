@@ -1,0 +1,19 @@
+{
+  "alternativeShortCodes": ["rT3", "Reverse T3"],
+  "displayName": "rT3",
+  "longName": "Reverse Triiodothyronine",
+  "unit": "ng/dL",
+  "rangeSources": [
+    {
+      "source": {
+        "name": "Peter Attia",
+        "url": "https://docs.google.com/document/d/1qw7BRXC-dX1Vmci0vijwYyxwdqxqhj4FMUXeMNQg2Rs"
+      },
+      "range": {
+        "type": "generic",
+        "min": null,
+        "max": 12
+      }
+    }
+  ]
+}

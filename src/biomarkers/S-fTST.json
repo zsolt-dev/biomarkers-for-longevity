@@ -1,0 +1,25 @@
+{
+  "alternativeShortCodes": ["fTST"],
+  "displayName": "Free testosterone",
+  "longName": "Free testosterone",
+  "unit": "ng/dL",
+  "rangeSources": [
+    {
+      "source": {
+        "name": "Peter Attia",
+        "url": "https://docs.google.com/document/d/1qw7BRXC-dX1Vmci0vijwYyxwdqxqhj4FMUXeMNQg2Rs/edit"
+      },
+      "range": {
+        "type": "genderSpecific",
+        "male": {
+          "min": 4,
+          "max": 24
+        },
+        "female": {
+          "min": 2,
+          "max": 10
+        }
+      }
+    }
+  ]
+}

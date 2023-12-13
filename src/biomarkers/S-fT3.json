@@ -1,0 +1,19 @@
+{
+  "alternativeShortCodes": ["fT3", "Free T3"],
+  "displayName": "fT3",
+  "longName": "Free Triiodothyronine",
+  "unit": "pg/mL",
+  "rangeSources": [
+    {
+      "source": {
+        "name": "Peter Attia",
+        "url": "https://docs.google.com/document/d/1qw7BRXC-dX1Vmci0vijwYyxwdqxqhj4FMUXeMNQg2Rs"
+      },
+      "range": {
+        "type": "generic",
+        "min": 2.8,
+        "max": 4
+      }
+    }
+  ]
+}

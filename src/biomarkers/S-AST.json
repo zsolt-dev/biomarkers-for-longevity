@@ -1,0 +1,25 @@
+{
+  "alternativeShortCodes": ["AST"],
+  "displayName": "AST",
+  "longName": "Aspartate Aminotransferase",
+  "unit": "U/L",
+  "rangeSources": [
+    {
+      "source": {
+        "name": "Peter Attia",
+        "url": "https://docs.google.com/document/d/1qw7BRXC-dX1Vmci0vijwYyxwdqxqhj4FMUXeMNQg2Rs"
+      },
+      "range": {
+        "type": "genderSpecific",
+        "male": {
+          "min": null,
+          "max": 25
+        },
+        "female": {
+          "min": null,
+          "max": 20
+        }
+      }
+    }
+  ]
+}

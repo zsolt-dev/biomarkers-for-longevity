@@ -1,0 +1,19 @@
+{
+  "alternativeShortCodes": ["fT4", "Free T4"],
+  "displayName": "fT4",
+  "longName": "Free Thyroxine",
+  "unit": "ng/dL",
+  "rangeSources": [
+    {
+      "source": {
+        "name": "Peter Attia",
+        "url": "https://docs.google.com/document/d/1qw7BRXC-dX1Vmci0vijwYyxwdqxqhj4FMUXeMNQg2Rs"
+      },
+      "range": {
+        "type": "generic",
+        "min": 0.93,
+        "max": 1.7
+      }
+    }
+  ]
+}

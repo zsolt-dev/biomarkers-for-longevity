@@ -1,0 +1,25 @@
+{
+  "alternativeShortCodes": ["TST"],
+  "displayName": "Testosterone",
+  "longName": "Testosterone",
+  "unit": "ng/dL",
+  "rangeSources": [
+    {
+      "source": {
+        "name": "Peter Attia",
+        "url": "https://docs.google.com/document/d/1qw7BRXC-dX1Vmci0vijwYyxwdqxqhj4FMUXeMNQg2Rs/edit"
+      },
+      "range": {
+        "type": "genderSpecific",
+        "male": {
+          "min": 350,
+          "max": 1000
+        },
+        "female": {
+          "min": 15,
+          "max": 70
+        }
+      }
+    }
+  ]
+}

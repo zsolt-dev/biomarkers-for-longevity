@@ -1,0 +1,22 @@
+{
+  "alternativeShortCodes": ["FSH"],
+  "displayName": "FSH",
+  "longName": "Follicle stimulating hormone",
+  "unit": "mIU/mL",
+  "rangeSources": [
+    {
+      "source": {
+        "name": "Peter Attia",
+        "url": "https://docs.google.com/document/d/1qw7BRXC-dX1Vmci0vijwYyxwdqxqhj4FMUXeMNQg2Rs/edit"
+      },
+      "range": {
+        "type": "genderSpecific",
+        "male": {
+          "min": 1.5,
+          "max": 12.4
+        },
+        "female": null
+      }
+    }
+  ]
+}
