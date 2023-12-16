@@ -5,6 +5,7 @@ export const biomarkersDictionary = {
   HGB: (await import('./HGB.json')).default as Biomarker,
   'HOMA-IR': (await import('./HOMA-IR.json')).default as Biomarker,
   'P-HCY': (await import('./P-HCY.json')).default as Biomarker,
+  RBC: (await import('./RBC.json')).default as Biomarker,
   'S-ALT': (await import('./S-ALT.json')).default as Biomarker,
   'S-ApoB': (await import('./S-ApoB.json')).default as Biomarker,
   'S-E2': (await import('./S-E2.json')).default as Biomarker,
@@ -32,6 +33,7 @@ export const biomarkersDictionary = {
   'S-tBIL': (await import('./S-tBIL.json')).default as Biomarker,
   'S-tPSA': (await import('./S-tPSA.json')).default as Biomarker,
   'S-UA': (await import('./S-UA.json')).default as Biomarker,
+  'S-GLU': (await import('./S-GLU.json')).default as Biomarker,
   'S-vitamin-D': (await import('./S-vitamin-D.json')).default as Biomarker,
   'S-VLDL': (await import('./S-VLDL.json')).default as Biomarker,
 } as const;

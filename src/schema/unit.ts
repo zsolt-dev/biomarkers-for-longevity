@@ -17,6 +17,7 @@ export const possibleUnits = [
   'U/L',
   'ratio',
   '%',
+  '10^12/L',
 ] as const;
 
 const unit = z.enum(possibleUnits);
