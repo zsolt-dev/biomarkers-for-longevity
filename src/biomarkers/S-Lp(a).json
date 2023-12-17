@@ -3,6 +3,7 @@
   "displayName": "Lp(a)",
   "longName": "Lipoprotein(a)",
   "unit": "mg/dL",
+  "description": "Lp(a) is an independent risk factor for cardiovascular disease. It does not usually change throughout the lifetime, so its enough to measure it once.",
   "rangeSources": [
     {
       "source": {

@@ -12,6 +12,7 @@ const biomarker = z
     displayName: z.string(),
     longName: z.string(),
     unit,
+    description: z.string().max(250).optional(),
     rangeSources: z.array(rangeSource).min(1).max(6),
     reasonsForLow: z.array(reasonForOutOfRange).max(6).optional(),
     reasonsForHigh: z.array(reasonForOutOfRange).max(6).optional(),

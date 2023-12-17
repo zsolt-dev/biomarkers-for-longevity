@@ -3,6 +3,7 @@
   "displayName": "Glucose",
   "longName": "Fasting Glucose",
   "unit": "mg/dL",
+  "description": "If you have eaten or drunk anything sugary between the test and 6pm the day before, ignore this result.",
   "rangeSources": [
     {
       "source": {
