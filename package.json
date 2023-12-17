@@ -5,7 +5,8 @@
   "type": "module",
   "exports": {
     ".": "./dist/index.js",
-    "./json/biomarkers.json": "./dist/json/biomarkers.json"
+    "./jsons/": "./dist/jsons/",
+    "./images/": "./dist/images/"
   },
   "types": "./dist/index.d.ts",
   "repository": "git://github.com/zsolt-dev/biomarkers-for-longevity.git",
@@ -13,10 +14,10 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
-    "build": "npm run build:clean && npm run build:tsup && npm run build:json",
+    "build": "npm run build:clean && npm run build:tsup && npm run build:jsons",
     "build:clean": "rimraf ./dist",
     "build:tsup": "tsup",
-    "build:json": "tsx ./scripts/buildJsonsAndImages.ts",
+    "build:jsons": "tsx ./scripts/buildJsonsAndImages.ts",
     "check": "concurrently --kill-others-on-fail \"npm run check:*\" || (echo -e '\\033[0;31mSome of the checks failed\\033[0m' && exit 1)",
     "check:lint": "eslint . --ext .ts,.tsx,.js,.jsx",
     "check:prettier": "prettier --check --ignore-path .gitignore .",

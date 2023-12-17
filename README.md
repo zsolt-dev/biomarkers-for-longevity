@@ -6,13 +6,34 @@ Largest crowd sourced reference ranges from the most influential longevity docto
 
 ```js
 
-import { biomarkers, biomarkersDictionary, type Biomarker } from '@zsolt-dev/biomarkers-for-longevity';
+import {
+  biomarkers,
+  biomarkersDictionary,
+  biomarkerImages,
+  biomarkerImagesDictionary,
+  type Biomarker,
+  // ...
+} from '@zsolt-dev/biomarkers-for-longevity';
 
 ```
 
-If you do not use JS/TS you can use the stitched JSONs in the `dist/json` directory.
+If you do not use JS/TS you can use the stitched JSONs in the `dist/jsons` directory.
 
-- dist/json/**biomarkers.json**
+- dist/jsons/**biomarkers.json**
+- dist/jsons/**biomarkerImages.json**
+
+Images can be accessed in `dist/images` directory.
+
+## How to contribute
+
+If you are not a developer, please send an email with the proposed biomarker, reference range, image, etc. to my email: [zsolt.dev@icloud.com](mailto:zsolt.dev@icloud.com) or create a `GitHub Issue` if you have a GitHub account.
+
+### Contributions for developers
+
+1. Clone this repo
+2. Add your changes, using the vscode editor
+3. Run `npm run check` and fix any issues
+4. Create a pull request
 
 ## Disclaimer:
 

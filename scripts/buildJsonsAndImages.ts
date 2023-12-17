@@ -10,9 +10,9 @@ const currentFilePath = fileURLToPath(import.meta.url);
 const currentDir = path.dirname(currentFilePath);
 const rootDir = path.resolve(currentDir, '../');
 
-const jsonDistDir = path.resolve(rootDir, 'dist/json/');
+const jsonsDistDir = path.resolve(rootDir, 'dist/jsons/');
 const imagesDistDir = path.resolve(rootDir, 'dist/images/');
-createDirectoryIfNotExists(jsonDistDir);
+createDirectoryIfNotExists(jsonsDistDir);
 createDirectoryIfNotExists(imagesDistDir);
 
 // write json files
@@ -30,7 +30,7 @@ biomarkerImages.forEach(({ shortCode, images }) => {
 });
 
 async function writeJSON(object, fileName) {
-  const jsonFilePath = path.resolve(jsonDistDir, fileName);
+  const jsonFilePath = path.resolve(jsonsDistDir, fileName);
   await fsPromises.writeFile(jsonFilePath, JSON.stringify(object, undefined, 2));
 }
 
