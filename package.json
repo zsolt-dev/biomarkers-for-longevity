@@ -16,7 +16,7 @@
     "build": "npm run build:clean && npm run build:tsup && npm run build:json",
     "build:clean": "rimraf ./dist",
     "build:tsup": "tsup",
-    "build:json": "tsx ./scripts/buildJsons.ts",
+    "build:json": "tsx ./scripts/buildJsonsAndImages.ts",
     "check": "concurrently --kill-others-on-fail \"npm run check:*\" || (echo -e '\\033[0;31mSome of the checks failed\\033[0m' && exit 1)",
     "check:lint": "eslint . --ext .ts,.tsx,.js,.jsx",
     "check:prettier": "prettier --check --ignore-path .gitignore .",

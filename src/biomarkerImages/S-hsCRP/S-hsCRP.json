@@ -1,0 +1,21 @@
+[
+  {
+    "fileName": "age.png",
+    "text": "CRP increases 3-5 fold during aging.",
+    "sources": [
+      "https://ashpublications.org/blood/article/105/6/2294/20120/The-origins-of-age-related-proinflammatory-state",
+      "https://michaellustgarten.com/2019/10/19/optimizing-biological-age-crp/"
+    ],
+    "credits": ["Ferrucci et al. 2005"]
+  },
+  {
+    "fileName": "HR.png",
+    "text": "Hazard ratio for all-cause mortality",
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/26823439/",
+      "https://michaellustgarten.com/2019/10/19/optimizing-biological-age-crp/"
+    ],
+    "credits": ["Zuo et al. (2016)"],
+    "display": "wholeRow"
+  }
+]
