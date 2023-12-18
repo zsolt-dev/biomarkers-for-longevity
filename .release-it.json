@@ -6,7 +6,10 @@
     "release": true
   },
   "npm": {
-    "publish": false
+    "publish": true
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "hooks": {
     "before:init": ["npm run check", "npm run build"],
