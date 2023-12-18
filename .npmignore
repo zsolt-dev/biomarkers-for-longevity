@@ -1,0 +1,18 @@
+.eslintignore
+.eslintrc.json
+.prettierignore
+.prettierrc.json
+.release-it.json
+.vscode/
+tsconfig.eslint.json
+tsconfig.json
+tsup.config.ts
+node_modules/
+.github/
+scripts/
+src/
+.gitignore
+
+# System files
+.DS_Store
+Thumbs.db
