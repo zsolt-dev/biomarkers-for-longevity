@@ -7,7 +7,7 @@ export const biomarkerImagesDictionary = {
 
 type BiomarkerShortCode = keyof typeof biomarkerImagesDictionary;
 
-export type BiomarkerImagesWithShortCode = { shortCode: BiomarkerShortCode; images: BiomarkerImages };
+export type BiomarkerImagesWithShortCode = { readonly shortCode: BiomarkerShortCode; images: BiomarkerImages };
 
 export const biomarkerImages = Object.entries(biomarkerImagesDictionary).map(([shortCode, images]) => ({
   shortCode,
