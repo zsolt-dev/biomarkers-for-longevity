@@ -12,8 +12,8 @@ const rootDir = path.resolve(currentDir, '../');
 
 const jsonsDistDir = path.resolve(rootDir, 'dist/jsons/');
 const imagesDistDir = path.resolve(rootDir, 'dist/images/');
-createDirectoryIfNotExists(jsonsDistDir);
-createDirectoryIfNotExists(imagesDistDir);
+fs.mkdirSync(jsonsDistDir, { recursive: true });
+fs.mkdirSync(imagesDistDir, { recursive: true });
 
 // write json files
 await writeJSON(biomarkers, 'biomarkers.json');
@@ -32,10 +32,4 @@ biomarkerImages.forEach(({ shortCode, images }) => {
 async function writeJSON(object, fileName) {
   const jsonFilePath = path.resolve(jsonsDistDir, fileName);
   await fsPromises.writeFile(jsonFilePath, JSON.stringify(object, undefined, 2));
-}
-
-function createDirectoryIfNotExists(dirPath: string) {
-  if (!fs.existsSync(dirPath)) {
-    fs.mkdirSync(dirPath);
-  }
 }
