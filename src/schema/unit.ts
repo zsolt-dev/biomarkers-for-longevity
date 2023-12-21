@@ -1,6 +1,6 @@
 import { z } from 'zod';
 
-export const possibleUnits = [
+export const units = [
   'g/dL',
   'pg/mL',
   'mg/dL',
@@ -20,7 +20,7 @@ export const possibleUnits = [
   '10^12/L',
 ] as const;
 
-const unit = z.enum(possibleUnits);
+const unit = z.enum(units);
 
 export default unit;
 
