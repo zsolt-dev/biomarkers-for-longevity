@@ -10,17 +10,20 @@ const minMaxObject = z.object({
   max,
 });
 
-const genericRange = z.object({
-  type: z.literal('generic'),
-  min,
-  max,
-});
+const genericRange = z
+  .object({
+    type: z.literal('generic'),
+    min,
+    max,
+  })
+  .strict();
 
 const ageSpecificRange = z
   .object({
     type: z.literal('ageSpecific'),
     ageGroups: z.record(minMaxObject),
   })
+  .strict()
   .refine(({ ageGroups }) => isValidAgeGroups(ageGroups), {
     message: 'ageGroups have to cover ages from 18-120 with no gaps or overlaps and have to be sorted by age',
   });
@@ -34,20 +37,23 @@ const genderSpecificRange = z
     male: minMaxObject.nullable(),
     female: minMaxObject.nullable(),
   })
+  .strict()
   .refine((data) => data.male || data.female, {
     message: "At least one of 'male' or 'female' is required",
   });
 
-const rangeSource = z.object({
-  source: z.object({
-    name: z.string().min(3).max(60),
-    url: url.optional(),
-  }),
-
-  // ageSpecificRange not supported yet
-  // range: z.union([genericRange, genderSpecificRange, ageSpecificRange])
-  range: z.union([genericRange, genderSpecificRange]),
-});
+const rangeSource = z
+  .object({
+    source: z.object({
+      name: z.string().min(3).max(60),
+      url: url.optional(),
+    }),
+    note: z.string().min(3).max(300).optional(),
+    // ageSpecificRange not supported yet
+    // range: z.union([genericRange, genderSpecificRange, ageSpecificRange])
+    range: z.union([genericRange, genderSpecificRange]),
+  })
+  .strict();
 
 export default rangeSource;
 

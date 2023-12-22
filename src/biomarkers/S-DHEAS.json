@@ -1,0 +1,25 @@
+{
+  "alternativeShortCodes": ["DHEAS"],
+  "displayName": "DHEAS",
+  "longName": "DHEA Sulfate",
+  "unit": "µmol/L",
+  "rangeSources": [
+    {
+      "source": {
+        "name": "OptimalDX",
+        "url": "https://www.optimaldx.com/research-blog/hormone-biomarkers-dhea-s"
+      },
+      "range": {
+        "type": "genderSpecific",
+        "male": {
+          "min": 9.5,
+          "max": 18.73
+        },
+        "female": {
+          "min": 7.42,
+          "max": 10.53
+        }
+      }
+    }
+  ]
+}

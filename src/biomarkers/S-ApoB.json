@@ -1,6 +1,7 @@
 {
   "alternativeShortCodes": ["ApoB"],
   "displayName": "ApoB",
+  "description": "ApoB is the best biomarker for assessing ASCVD risk, as it encompasses all atherogenic lipoprotein particles, including LDL, IDL, VLDL, and Lp(a).",
   "longName": "Apolipoprotein B",
   "unit": "mg/dL",
   "rangeSources": [
@@ -13,7 +14,8 @@
         "type": "generic",
         "min": null,
         "max": 65
-      }
+      },
+      "note": "62 mg/dL would be the top (best) 5% of the population.\n\n\"I just don't see a reason to have an ApoB ever north of 60 milligrams per deciliter.\" - Peter Attia.\n\nApoB between 20 to 30 mg/dL should eliminate ASCVD risk if other risk factors are eliminated as well (high blood pressure and smoking)."
     }
   ]
 }

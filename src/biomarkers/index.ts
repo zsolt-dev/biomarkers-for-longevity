@@ -15,6 +15,7 @@ export const biomarkersDictionary = {
   'S-E2': (await import('./S-E2.json')).default as Biomarker,
   'S-AST': (await import('./S-AST.json')).default as Biomarker,
   'S-aTPO': (await import('./S-aTPO.json')).default as Biomarker,
+  'S-DHEAS': (await import('./S-DHEAS.json')).default as Biomarker,
   'S-Cystatin-C': (await import('./S-Cystatin-C.json')).default as Biomarker,
   'S-FSH': (await import('./S-FSH.json')).default as Biomarker,
   'S-fT3': (await import('./S-fT3.json')).default as Biomarker,
