@@ -1,0 +1,18 @@
+[
+  {
+    "fileName": "HR-male.jpg",
+    "text": "Hazard ratio for all-cause mortality for Males",
+    "sources": [
+      "https://www.researchgate.net/publication/307591670_Platelet_count_is_associated_with_cardiovascular_disease_cancer_and_mortality_A_population-based_cohort_study"
+    ],
+    "credits": ["Vinholt et al. (2016)"]
+  },
+  {
+    "fileName": "HR-female.jpg",
+    "text": "Hazard ratio for all-cause mortality for Females",
+    "sources": [
+      "https://www.researchgate.net/publication/307591670_Platelet_count_is_associated_with_cardiovascular_disease_cancer_and_mortality_A_population-based_cohort_study"
+    ],
+    "credits": ["Vinholt et al. (2016)"]
+  }
+]

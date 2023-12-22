@@ -1,6 +1,8 @@
 import { type BiomarkerImages } from '../schema/biomarkerImages.js';
 
 export const biomarkerImagesDictionary = {
+  LYM: (await import('./LYM/LYM.json')).default as BiomarkerImages,
+  PLT: (await import('./PLT/PLT.json')).default as BiomarkerImages,
   'S-hsCRP': (await import('./S-hsCRP/S-hsCRP.json')).default as BiomarkerImages,
   'S-GLU': (await import('./S-GLU/S-GLU.json')).default as BiomarkerImages,
 } as const;

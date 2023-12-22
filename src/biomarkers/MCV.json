@@ -1,0 +1,35 @@
+{
+  "alternativeShortCodes": ["MCV"],
+  "displayName": "MCV",
+  "longName": "Mean corpuscular volume",
+  "unit": "fL",
+  "rangeSources": [
+    {
+      "source": {
+        "name": "OptimalDX",
+        "url": "https://www.optimaldx.com/research-blog/biomarkers-cbc-mean-corpuscular-volume"
+      },
+      "range": {
+        "type": "generic",
+        "min": 82,
+        "max": 89.9
+      }
+    }
+  ],
+  "consequencesForHigh": [
+    {
+      "consequence": "For males: increased all-cause and cancer mortality",
+      "description": "The adjusted hazard ratio for MCV ≥95.8 fL in men for all-cause and cancer mortality was 1.51 (95% CI, 1.10-2.07) for men, compared with those in the reference group (90.5 fL ≤MCV <93.0 fL in men). Elevated MCV level was related to an increased risk of liver cancer mortality in men (aHR, 3.55; 95% CI, 1.75-7.21).",
+      "sources": [
+        "https://www.researchgate.net/publication/285585067_Mean_corpuscular_volume_levels_and_all-cause_and_liver_cancer_mortality"
+      ]
+    },
+    {
+      "consequence": "For females: all-cause mortality",
+      "description": "The adjusted hazard ratio for MCV ≥94.2 fL in women for all-cause mortality 1.25 (95% CI, 0.74-2.11) for women, compared with those in the reference group (89.2 fL ≤MCV <91.6 fL in women).",
+      "sources": [
+        "https://www.researchgate.net/publication/285585067_Mean_corpuscular_volume_levels_and_all-cause_and_liver_cancer_mortality"
+      ]
+    }
+  ]
+}

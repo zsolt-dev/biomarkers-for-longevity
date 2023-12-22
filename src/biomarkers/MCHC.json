@@ -1,0 +1,19 @@
+{
+  "alternativeShortCodes": ["MCHC"],
+  "displayName": "MCHC",
+  "longName": "Mean corpuscular hemoglobin concentration",
+  "unit": "g/dL",
+  "rangeSources": [
+    {
+      "source": {
+        "name": "OptimalDX",
+        "url": "https://www.optimaldx.com/research-blog/cbc-biomarkers-mean-corpuscular-hemoglobin-concentration"
+      },
+      "range": {
+        "type": "generic",
+        "min": 34,
+        "max": 36
+      }
+    }
+  ]
+}

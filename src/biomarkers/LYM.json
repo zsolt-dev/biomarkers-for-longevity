@@ -1,0 +1,25 @@
+{
+  "alternativeShortCodes": ["LYM"],
+  "displayName": "LYM",
+  "longName": "Lymphocytes %",
+  "unit": "%",
+  "rangeSources": [
+    {
+      "source": {
+        "name": "OptimalDX",
+        "url": "https://www.optimaldx.com/research-blog/biomarkers-of-immunity-lymphocytes"
+      },
+      "range": {
+        "type": "generic",
+        "min": 30,
+        "max": 35
+      }
+    }
+  ],
+  "interventionsForLow": [
+    {
+      "intervention": "Zinc supplementation when zinc deficient",
+      "sources": ["https://pubmed.ncbi.nlm.nih.gov/11726532/"]
+    }
+  ]
+}

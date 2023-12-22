@@ -4,6 +4,10 @@ export const biomarkersDictionary = {
   'B-HbA1c-DCCT': (await import('./B-HbA1c-DCCT.json')).default as Biomarker,
   HGB: (await import('./HGB.json')).default as Biomarker,
   'HOMA-IR': (await import('./HOMA-IR.json')).default as Biomarker,
+  LYM: (await import('./LYM.json')).default as Biomarker,
+  MCHC: (await import('./MCHC.json')).default as Biomarker,
+  MCV: (await import('./MCV.json')).default as Biomarker,
+  PLT: (await import('./PLT.json')).default as Biomarker,
   'P-HCY': (await import('./P-HCY.json')).default as Biomarker,
   RBC: (await import('./RBC.json')).default as Biomarker,
   'S-ALT': (await import('./S-ALT.json')).default as Biomarker,
@@ -36,6 +40,7 @@ export const biomarkersDictionary = {
   'S-GLU': (await import('./S-GLU.json')).default as Biomarker,
   'S-vitamin-D': (await import('./S-vitamin-D.json')).default as Biomarker,
   'S-VLDL': (await import('./S-VLDL.json')).default as Biomarker,
+  WBC: (await import('./WBC.json')).default as Biomarker,
 } as const;
 
 export type BiomarkerShortCode = keyof typeof biomarkersDictionary;

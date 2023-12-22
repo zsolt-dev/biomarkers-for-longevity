@@ -18,6 +18,8 @@ export const units = [
   'ratio',
   '%',
   '10^12/L',
+  '10^9/L',
+  'fL',
 ] as const;
 
 const unit = z.enum(units);

@@ -12,7 +12,9 @@ node_modules/
 scripts/
 src/
 .gitignore
+*_notes.md
 
 # System files
 .DS_Store
 Thumbs.db
+

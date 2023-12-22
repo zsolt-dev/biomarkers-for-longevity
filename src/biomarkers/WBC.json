@@ -1,0 +1,79 @@
+{
+  "alternativeShortCodes": ["WBC", "LEU", "Leukocytes"],
+  "displayName": "WBC",
+  "longName": "White Blood Cells Count",
+  "unit": "10^9/L",
+  "rangeSources": [
+    {
+      "source": {
+        "name": "OptimalDX",
+        "url": "https://www.optimaldx.com/blog/thoughts-on-a-lower-optimal-range-for-total-wbcs"
+      },
+      "range": {
+        "type": "generic",
+        "min": 3.8,
+        "max": 6.0
+      }
+    },
+    {
+      "source": {
+        "name": "Michael Lustgarten",
+        "url": "https://michaellustgarten.com/2015/08/13/blood-testing-whats-optimal-for-wbc-levels/"
+      },
+      "range": {
+        "type": "generic",
+        "min": 3.5,
+        "max": 6.0
+      }
+    }
+  ],
+  "consequencesForHigh": [
+    {
+      "consequence": "WBC ranging from 6 to 10 was linked to an increased all cause mortality risk of 30-40%.",
+      "sources": [
+        "https://www.optimaldx.com/blog/thoughts-on-a-lower-optimal-range-for-total-wbcs",
+        "https://pubmed.ncbi.nlm.nih.gov/17481443/"
+      ]
+    },
+    {
+      "consequence": "WBC exceeding 10 showed a 2x higher all cause mortality risk compared to a WBC count between 3.5 and 6.",
+      "sources": [
+        "https://www.optimaldx.com/blog/thoughts-on-a-lower-optimal-range-for-total-wbcs",
+        "https://pubmed.ncbi.nlm.nih.gov/17481443/"
+      ]
+    }
+  ],
+  "consequencesForLow": [
+    {
+      "consequence": "WBC below 3.5 were linked to a 3x increase in all cause mortality risk.",
+      "sources": [
+        "https://www.optimaldx.com/blog/thoughts-on-a-lower-optimal-range-for-total-wbcs",
+        "https://pubmed.ncbi.nlm.nih.gov/17481443/"
+      ]
+    }
+  ],
+  "interventionsForHigh": [
+    {
+      "intervention": "Calorie restriction and reducing your body weight",
+      "sources": ["https://michaellustgarten.com/2015/08/13/blood-testing-whats-optimal-for-wbc-levels/"]
+    }
+  ],
+  "reasonsForHigh": [
+    {
+      "reason": "Stress (both physical or emotional)",
+      "sources": ["https://pubmed.ncbi.nlm.nih.gov/11087187/"]
+    },
+    {
+      "reason": "Medications: corticosteroids, lithium and beta agonists.",
+      "sources": ["https://pubmed.ncbi.nlm.nih.gov/11087187/"]
+    },
+    {
+      "reason": "Infections and allergies (increased eosinophil or basophil counts)",
+      "sources": ["https://pubmed.ncbi.nlm.nih.gov/11087187/"]
+    },
+    {
+      "reason": "Smoking",
+      "sources": ["https://pubmed.ncbi.nlm.nih.gov/4070192/"]
+    }
+  ]
+}

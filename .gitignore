@@ -42,3 +42,4 @@ lib
 # Others
 .DS_Store
 dist
+*_notes.md

@@ -1,0 +1,49 @@
+{
+  "alternativeShortCodes": ["PLT", "Thrombocytes"],
+  "displayName": "PLT",
+  "longName": "Platelets",
+  "unit": "10^9/L",
+  "rangeSources": [
+    {
+      "source": {
+        "name": "OptimalDX",
+        "url": "https://www.optimaldx.com/research-blog/cbc-biomarkers-platelets"
+      },
+      "range": {
+        "type": "generic",
+        "min": 190,
+        "max": 300
+      }
+    },
+    {
+      "source": {
+        "name": "Zsolt Szabo"
+      },
+      "range": {
+        "type": "genderSpecific",
+        "male": {
+          "min": 180,
+          "max": 280
+        },
+        "female": {
+          "min": 220,
+          "max": 320
+        }
+      }
+    }
+  ],
+  "consequencesForLow": [
+    {
+      "consequence": "Increased risk for cancer",
+      "description": "Platelet count 100-200 x10^9/L was associated with future cancer, adjusted HR = 1.28(95% CI 1.05-1.57).",
+      "sources": ["https://www.researchgate.net/publication/307591670"]
+    }
+  ],
+  "consequencesForHigh": [
+    {
+      "consequence": "Increased risk for all cause mortality and cardiovascular disease",
+      "description": "Platelet count 301-450 x10^9/L was associated with mortality, adjusted hazard ratio (HR) =1.42(95% CI 1.06-1.90) and cardiovascular disease, adjusted HR=1.32 (95% CI 1.03-1.69).",
+      "sources": ["https://www.researchgate.net/publication/307591670"]
+    }
+  ]
+}

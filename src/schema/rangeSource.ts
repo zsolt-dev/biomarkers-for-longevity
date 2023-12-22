@@ -41,7 +41,7 @@ const genderSpecificRange = z
 const rangeSource = z.object({
   source: z.object({
     name: z.string().min(3).max(60),
-    url,
+    url: url.optional(),
   }),
 
   // ageSpecificRange not supported yet

@@ -1,5 +1,6 @@
 import { z } from 'zod';
 
+import consequenceForOutOfRange from './consequenceForOutOfRange.js';
 import interventionForOutOfRange from './interventionForOutOfRange.js';
 import rangeSource from './rangeSource.js';
 import reasonForOutOfRange from './reasonForOutOfRange.js';
@@ -14,6 +15,8 @@ const biomarker = z
     unit,
     description: z.string().max(250).optional(),
     rangeSources: z.array(rangeSource).min(1).max(6),
+    consequencesForLow: z.array(consequenceForOutOfRange).max(6).optional(),
+    consequencesForHigh: z.array(consequenceForOutOfRange).max(6).optional(),
     reasonsForLow: z.array(reasonForOutOfRange).max(6).optional(),
     reasonsForHigh: z.array(reasonForOutOfRange).max(6).optional(),
     interventionsForLow: z.array(interventionForOutOfRange).max(6).optional(),
