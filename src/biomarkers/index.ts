@@ -15,6 +15,7 @@ export const biomarkersDictionary = {
   'S-E2': (await import('./S-E2.json')).default as Biomarker,
   'S-AST': (await import('./S-AST.json')).default as Biomarker,
   'S-aTPO': (await import('./S-aTPO.json')).default as Biomarker,
+  'S-B12': (await import('./S-B12.json')).default as Biomarker,
   'S-DHEAS': (await import('./S-DHEAS.json')).default as Biomarker,
   'S-Cystatin-C': (await import('./S-Cystatin-C.json')).default as Biomarker,
   'S-FSH': (await import('./S-FSH.json')).default as Biomarker,
@@ -27,6 +28,7 @@ export const biomarkersDictionary = {
   // ageSpecificRange not supported yet
   // 'S-fTST': (await import('./S-fTST.json')).default as Biomarker,
   'S-HDL': (await import('./S-HDL.json')).default as Biomarker,
+  'S-holoTC': (await import('./S-holoTC.json')).default as Biomarker,
   'S-hsCRP': (await import('./S-hsCRP.json')).default as Biomarker,
   'S-INS': (await import('./S-INS.json')).default as Biomarker,
   'S-LDL': (await import('./S-LDL.json')).default as Biomarker,

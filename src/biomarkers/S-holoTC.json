@@ -1,0 +1,19 @@
+{
+  "alternativeShortCodes": ["HoloTC", "Active-B12", "Holotranscobalamin"],
+  "displayName": "HoloTC",
+  "longName": "Holotranscobalamin - Active vitamin B12",
+  "unit": "pmol/L",
+  "rangeSources": [
+    {
+      "source": {
+        "name": "OptimalDX",
+        "url": "https://www.optimaldx.com/research-blog/b12-deficiency-part-3"
+      },
+      "range": {
+        "type": "generic",
+        "min": 54,
+        "max": 188
+      }
+    }
+  ]
+}

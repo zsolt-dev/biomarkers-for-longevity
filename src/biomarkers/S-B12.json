@@ -1,0 +1,19 @@
+{
+  "alternativeShortCodes": ["B12", "Vitamin B12", "Cobalamin"],
+  "displayName": "B12",
+  "longName": "Cobalamin - Vitamin B12",
+  "unit": "pmol/L",
+  "rangeSources": [
+    {
+      "source": {
+        "name": "OptimalDX",
+        "url": "https://www.optimaldx.com/research-blog/b12-deficiency-part-3"
+      },
+      "range": {
+        "type": "generic",
+        "min": 402,
+        "max": 811
+      }
+    }
+  ]
+}

@@ -10,6 +10,7 @@ export const units = [
   'µg/L',
   'nmol/L',
   'µmol/L',
+  'pmol/L',
   '%',
   'µIU/mL',
   'mIU/mL',
