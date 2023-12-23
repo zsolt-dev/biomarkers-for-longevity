@@ -2,7 +2,7 @@
   "alternativeShortCodes": ["hsCRP"],
   "displayName": "hsCRP",
   "longName": "high-sensitivity C-reactive protein",
-  "unit": "mg/dL",
+  "unit": "mg/L",
   "rangeSources": [
     {
       "source": {
