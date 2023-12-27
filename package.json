@@ -1,6 +1,6 @@
 {
   "name": "@zsolt-dev/biomarkers-for-longevity",
-  "version": "2.1.1",
+  "version": "3.0.0",
   "description": "Largest crowd sourced reference ranges from the most influential longevity doctors and organizations.",
   "type": "module",
   "exports": {
