@@ -1,0 +1,19 @@
+{
+  "alternativeShortCodes": ["ALP", "ALKP", "ALPase"],
+  "displayName": "ALP",
+  "longName": "Alkaline Phosphatase",
+  "unit": "IU/L",
+  "rangeSources": [
+    {
+      "source": {
+        "name": "OptimalDX",
+        "url": "https://www.optimaldx.com/research-blog/draft-alkaline-phosphatase-update"
+      },
+      "range": {
+        "type": "generic",
+        "min": 45,
+        "max": 100
+      }
+    }
+  ]
+}

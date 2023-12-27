@@ -14,6 +14,54 @@
         "min": null,
         "max": 5
       }
+    },
+    {
+      "source": {
+        "name": "David Perlmutter",
+        "url": "https://www.levelshealth.com/blog/how-uric-acid-drives-weight-gain-disease-and-more"
+      },
+      "range": {
+        "type": "generic",
+        "min": null,
+        "max": 5.5
+      }
+    },
+    {
+      "source": {
+        "name": "Kuwabara et al. 2020",
+        "url": "https://www.mdpi.com/2077-0383/9/4/942"
+      },
+      "range": {
+        "type": "genderSpecific",
+        "male": {
+          "min": 0,
+          "max": 5
+        },
+        "female": {
+          "min": 2,
+          "max": 4
+        }
+      }
+    }
+  ],
+  "consequencesForHigh": [
+    {
+      "consequence": "Hypertension, diabetes, dyslipidemia, chronic kidney disease",
+      "sources": [
+        "https://www.levelshealth.com/blog/what-is-uric-acid-and-why-should-we-measure-it",
+        "https://www.mdpi.com/2077-0383/9/4/942"
+      ]
+    },
+    {
+      "consequence": "Kidney stones, Gout (deposits of uric acid crystals in joints)",
+      "sources": ["https://pubmed.ncbi.nlm.nih.gov/16375732/", "https://www.ncbi.nlm.nih.gov/books/NBK560726/"]
+    }
+  ],
+  "interventionsForHigh": [
+    {
+      "intervention": "Reducing fructose intake",
+      "description": "Sugar (sucrose), fruit juice, honey, agave, maple syrup, coconut sugar, high-fructose corn syrup etc. are all high in fructose. In fact, sugar is 1:1 fructose to glucose, while \"healthy sugar alternatives\" like honey, juices, agave are higher in fructose than glucose.",
+      "sources": ["https://www.levelshealth.com/blog/what-is-uric-acid-and-why-should-we-measure-it"]
     }
   ]
 }

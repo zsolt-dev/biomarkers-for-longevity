@@ -1,0 +1,38 @@
+{
+  "alternativeShortCodes": ["GGT"],
+  "displayName": "GGT",
+  "longName": "Gamma-glutamyl transferase",
+  "unit": "IU/L",
+  "rangeSources": [
+    {
+      "source": {
+        "name": "OptimalDX",
+        "url": "https://www.optimaldx.com/research-blog/biomarkers-of-liver-and-gallbladder-function-ggt"
+      },
+      "range": {
+        "type": "generic",
+        "min": 10,
+        "max": 17
+      }
+    }
+  ],
+  "consequencesForHigh": [
+    {
+      "consequence": "Above 16.5 IU/L was associated with metabolic syndrome",
+
+      "sources": ["https://pubmed.ncbi.nlm.nih.gov/23199536/"]
+    },
+    {
+      "consequence": "Above 20.5 IU/L was associated with impaired glucose tolerance",
+      "sources": ["https://pubmed.ncbi.nlm.nih.gov/23199536/"]
+    },
+    {
+      "consequence": "Above 18 IU/L was associated with insulin resistance, prehypertension, and cancer",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/24102943/",
+        "https://pubmed.ncbi.nlm.nih.gov/24265522/",
+        "https://pubmed.ncbi.nlm.nih.gov/21486691/"
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "alternativeShortCodes": ["AST"],
   "displayName": "AST",
   "longName": "Aspartate Aminotransferase",
-  "unit": "U/L",
+  "unit": "IU/L",
   "rangeSources": [
     {
       "source": {

@@ -6,18 +6,7 @@
   "rangeSources": [
     {
       "source": {
-        "name": "OptimalDX",
-        "url": "https://www.optimaldx.com/research-blog/cbc-biomarkers-platelets"
-      },
-      "range": {
-        "type": "generic",
-        "min": 190,
-        "max": 300
-      }
-    },
-    {
-      "source": {
-        "name": "Zsolt Szabo"
+        "name": "Vinholt et al. (2016)"
       },
       "range": {
         "type": "genderSpecific",

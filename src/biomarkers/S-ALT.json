@@ -2,7 +2,7 @@
   "alternativeShortCodes": ["ALT"],
   "displayName": "ALT",
   "longName": "Alanine Aminotransferase",
-  "unit": "U/L",
+  "unit": "IU/L",
   "rangeSources": [
     {
       "source": {
@@ -19,6 +19,17 @@
           "min": null,
           "max": 20
         }
+      }
+    },
+    {
+      "source": {
+        "name": "OptimalDX",
+        "url": "https://www.optimaldx.com/research-blog/biomarkers-of-liver-and-gallbladder-function-alt"
+      },
+      "range": {
+        "type": "generic",
+        "min": 10,
+        "max": 26
       }
     }
   ]

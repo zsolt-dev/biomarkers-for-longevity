@@ -1,0 +1,18 @@
+[
+  {
+    "fileName": "age.webp",
+    "text": "Homocysteine increases during aging",
+    "sources": [
+      "https://www.sciencedirect.com/science/article/abs/pii/S0009912006002451",
+      "https://youtu.be/y6joAp_UghQ?si=L6K864JOs_GpJcEk&t=66"
+    ],
+    "credits": ["Ferrucci et al. 2005", "Nygard at al 1995", "Michael Lustgarten"],
+    "display": "wholeRow"
+  },
+  {
+    "fileName": "HR-all-cause-mortality.webp",
+    "text": "Hazard ratio for all-cause mortality",
+    "sources": ["https://www.nature.com/articles/s41598-017-05205-3"],
+    "credits": ["Fan et al 2017"]
+  }
+]

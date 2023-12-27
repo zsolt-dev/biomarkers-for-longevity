@@ -26,5 +26,25 @@
         "max": 7.2
       }
     }
+  ],
+  "consequencesForHigh": [
+    {
+      "consequence": "Cardiovascular disease (Atherosclerosis, Heart attack, Stroke)",
+      "sources": ["https://pubmed.ncbi.nlm.nih.gov/11726532/"]
+    },
+    {
+      "consequence": "Neurodegenerative disorders (Alzheimer's, Parkinson's, Dementia)",
+      "sources": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5741875/#CR31",
+        "https://pubmed.ncbi.nlm.nih.gov/27531233/"
+      ]
+    }
+  ],
+  "interventionsForHigh": [
+    {
+      "intervention": "B12, folate and vitamin B6 supplementation",
+      "description": "Consider the methylated versions of B12 and folate (methylcobalamin and methylfolate)",
+      "sources": ["https://www.mdpi.com/2227-9059/10/11/2741"]
+    }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "alternativeShortCodes": ["Folate", "Vitamin B9", "Folic Acid"],
+  "displayName": "Folate",
+  "longName": "Folate - Vitamin B9",
+  "unit": "nmol/L",
+  "rangeSources": [
+    {
+      "source": {
+        "name": "OptimalDX",
+        "url": "https://www.optimaldx.com/research-blog/vitamin-biomarkers-serum-folate"
+      },
+      "range": {
+        "type": "generic",
+        "min": 34,
+        "max": 61
+      }
+    }
+  ]
+}
