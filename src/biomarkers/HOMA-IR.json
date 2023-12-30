@@ -2,7 +2,7 @@
   "alternativeShortCodes": [],
   "displayName": "HOMA-IR",
   "longName": "Homeostatic Model Assessment for Insulin Resistance",
-  "unit": "ratio",
+  "unit": null,
   "rangeSources": [
     {
       "source": {

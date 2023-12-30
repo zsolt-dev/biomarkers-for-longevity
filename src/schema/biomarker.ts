@@ -12,7 +12,7 @@ const biomarker = z
     alternativeShortCodes: z.array(z.string()),
     displayName: z.string(),
     longName: z.string(),
-    unit,
+    unit: unit.nullable(),
     description: z.string().max(250).optional(),
     rangeSources: z.array(rangeSource).min(1).max(6),
     consequencesForLow: z.array(consequenceForOutOfRange).max(6).optional(),

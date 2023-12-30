@@ -16,7 +16,6 @@ export const units = [
   'mIU/mL',
   'IU/mL',
   'IU/L',
-  'ratio',
   '10^12/L',
   '10^9/L',
   'fL',
