@@ -2,7 +2,17 @@
 
 Largest crowd sourced reference ranges from the most influential longevity doctors and organizations.
 
-## How to use
+## Projects built on top of this
+
+- **[Longevity Lab Test Analyzer GPT](https://chat.openai.com/g/g-I5KSfoedc-longevity-lab-test-analyzer)**
+
+  Upload the PDF from your lab to analyze your blood results
+
+- **[Longevity-tools.com](http://longevity-tools.com)** - coming soon
+
+  Unit conversions, optimal biomarker reference ranges, hazard ratios for all cause mortality and more.
+
+## How to use in your project
 
 ```js
 
