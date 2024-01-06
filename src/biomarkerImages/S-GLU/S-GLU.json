@@ -1,6 +1,6 @@
 [
   {
-    "fileName": "age.png",
+    "fileName": "age.webp",
     "text": "Serum glucose increase during aging",
     "sources": [
       "https://pubmed.ncbi.nlm.nih.gov/28811570/",
@@ -9,7 +9,7 @@
     "credits": ["Yi et al. 2017"]
   },
   {
-    "fileName": "HR.png",
+    "fileName": "HR.webp",
     "text": "Hazard ratio for all-cause mortality",
     "sources": [
       "https://pubmed.ncbi.nlm.nih.gov/28811570/",
